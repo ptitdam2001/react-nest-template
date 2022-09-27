@@ -3,7 +3,7 @@ import { helloWorld } from '@stack/core'
 
 @Injectable()
 export class AppService {
-  getHello(): string {
+  getServerInfo(): string {
     return helloWorld()
   }
 }
